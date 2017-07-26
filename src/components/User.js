@@ -13,10 +13,10 @@ class User extends React.Component {
         this.fetchUser();
     }
 
-    componentDidUpdate(prevProps) {
-        if (prevProps.params.username !== this.props.params.username) {
-            this.fetchUser();
-        }
+    componentDidUpdate(prevProps) {  //this causes a click on a followers/following person to go to that next person's site-like a chain
+        if (prevProps.params.username !== this.props.params.username) {  //prevents url changes but user does not--this reinstantiates the fetchUser data
+            this.fetchUser();  //this is a lifestyle hook and will reinstantiate fetchUser for new users
+        }                        //component does not get torn down, but, new data can enter it.
     }
 
     fetchUser() {  //this gets called when the component is instantiated & it mounts it to the DOM
