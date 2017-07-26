@@ -12,7 +12,7 @@ class GithubRepo extends Component {
         <a target="_blank" className="github-repotag" href={url}>
             {name}
             {" "}
-            <span className="github-repotag__stars">{stars}*</span>
+            <span className="github-repotag__stars">{stars}stars</span>
         </a>
     )
    }
