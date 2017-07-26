@@ -23,7 +23,7 @@ class Following extends Component {
     var page = this.state.page;
     fetch(
       `https://api.github.com/users/${this.props.params
-        .username}/following?per_page=25&page=${page}&access_token7756cc5b095ede456ac2458c7ff727b00ab75ebe`
+        .username}/following?per_page=25&page=${page}&access_token=7756cc5b095ede456ac2458c7ff727b00ab75ebe`
     )
       .then(response => response.json())
       .then(payload => {

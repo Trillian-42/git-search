@@ -20,7 +20,7 @@ class User extends React.Component {
     }
 
     fetchUser() {  //this gets called when the component is instantiated & it mounts it to the DOM
-        fetch(`https://api.github.com/users/${this.props.params.username}?access_token554612bc8de7a1a6744b77055cbab693543d20f0
+        fetch(`https://api.github.com/users/${this.props.params.username}?access_token=554612bc8de7a1a6744b77055cbab693543d20f0
 `)
         .then(resp => resp.json())
         .then(user => {

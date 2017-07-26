@@ -22,7 +22,7 @@ class Followers extends Component {
     var that = this; //What's this?? Make sure you remember or understand what this line does.
     var page = this.state.page;
     fetch(
-      `https://api.github.com/users/${this.props.params.username}/followers?per_page=25&page=${page}&access_token554612bc8de7a1a6744b77055cbab693543d20f0`)
+      `https://api.github.com/users/${this.props.params.username}/followers?per_page=25&page=${page}&access_token=554612bc8de7a1a6744b77055cbab693543d20f0`)
       .then(response => response.json())
       .then(payload => {
         if (payload.length === 0) {
