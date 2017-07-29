@@ -1,7 +1,12 @@
 body {
   font-family: Helvetica;
   margin: 30px;
-  background-color: tan;
+  /*background-color: tan;*/
+  background-image: -webkit-linear-gradient(#FFD194, #BC1324);
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-color: #D2656F;
+  height: 100%;
 }
 
 h1,
