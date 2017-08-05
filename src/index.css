@@ -3,7 +3,7 @@ body {
   margin: 30px;
   background: url("http://lib.store.yahoo.net/lib/oberers-flowers/black-paisley-background.jpg");
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-size: cover;
   /*background-color: tan;*/
   /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   background-repeat: no-repeat;
