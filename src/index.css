@@ -2,7 +2,9 @@ body {
   font-family: Helvetica;
   margin: 30px;
   background: url("http://lib.store.yahoo.net/lib/oberers-flowers/black-paisley-background.jpg");
+  background-position: center center;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   background-size: cover;
   /*background-color: tan;*/
   /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);
