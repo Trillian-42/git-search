@@ -1,7 +1,9 @@
 body {
   font-family: Helvetica;
   margin: 30px;
-  background: url("http://lib.store.yahoo.net/lib/oberers-flowers/black-paisley-background.jpg") center center;
+  background: url("http://lib.store.yahoo.net/lib/oberers-flowers/black-paisley-background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
   /*background-color: tan;*/
   /*background-image: -webkit-linear-gradient(#FFD194, #BC1324);
   background-repeat: no-repeat;
@@ -40,10 +42,12 @@ h6 {
 
 .main-content {
   padding: 0.5rem;
+  color: white;
 }
 
 .search-page {
   text-align: center;
+  color: white;
 }
 
 .search-page__input {
@@ -64,6 +68,7 @@ h6 {
   padding-bottom: 1em;
   border-bottom: 1px solid rgba(0, 0, 0, 0.9);
   margin-bottom: 1em;
+  color: white;
 }
 
 .user-info__avatar {
@@ -72,17 +77,17 @@ h6 {
   height: 70px;
   margin-right: 1em;
   float: left;
- 
 }
 
 .user-info__text {
   text-decoration: none;
   flex: 1;
-  
+  color: white;
 }
 
 .user-info__title {
   font-size: 20px;
+  color: white;
 }
 
 .user-info__title,
@@ -90,6 +95,7 @@ h6 {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap;
+  color: white;
 }
 
 .user-info__stats {
@@ -97,10 +103,11 @@ h6 {
   padding: 0;
   flex: 1;
   display: flex;
+  color: white;
 }
 
 .user-info__stats a {
-  color: #000;
+  color: white;
   text-decoration: none;
   text-transform: lowercase;
   font-variant: small-caps;
@@ -109,18 +116,19 @@ h6 {
 
 .user-info__stat {
   flex: 1;
+  color: white;
 }
 
 .user-info__stat p {
   margin: 0;
   white-space: nowrap;
+  color: white;
 }
 
 .github-usertag {
   text-decoration: none;
-  color: #000;
+  color: white;
   white-space: nowrap;
-  
 }
 
 .github-usertag__avatar {
@@ -128,7 +136,7 @@ h6 {
   width: 70px;
   height: 70px;
   margin-right: 0.5em;
-  
+
   display: inline-block;
   vertical-align: middle;
   padding-bottom: 7px;
@@ -136,16 +144,17 @@ h6 {
 
 .followers-list {
   list-style: none;
- 
+  color: white;
 }
 
 .followers-list li {
   margin-bottom: 1em;
+  color: white;
 }
 
 .github-repotag {
   text-decoration: none;
-  color: #000;
+  color: white;
   white-space: nowrap;
 }
 .github-repotag__stars {
@@ -155,4 +164,5 @@ h6 {
   line-height: 1;
   border: 1px solid black;
   font-size: 0.9em;
+  color: white;
 }
